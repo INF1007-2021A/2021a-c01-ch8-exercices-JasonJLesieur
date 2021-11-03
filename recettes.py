@@ -15,4 +15,4 @@ def print_recipe(ingredients: dict) -> None:
         print(ingredients[name])
     else:
         print("La recette demandée n'existe pas!")
-        print(f"Les recettes existantes sont: {list(ingredients.keys())}")
+        print(f"Les recettes existantes sont: {list(ingredients.keys())}
